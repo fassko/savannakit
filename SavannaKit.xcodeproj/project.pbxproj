@@ -194,6 +194,7 @@
 			indentWidth = 4;
 			sourceTree = "<group>";
 			tabWidth = 4;
+			usesTabs = 1;
 		};
 		BEDA3F361E380E5D00B5091C /* Products */ = {
 			isa = PBXGroup;
