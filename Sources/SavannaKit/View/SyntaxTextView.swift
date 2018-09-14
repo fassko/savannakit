@@ -309,7 +309,7 @@ open class SyntaxTextView: View {
 	public func insertText(_ text: String) {
 		
 		if shouldChangeText(insertingText: text) {
-      let range = NSRange(text.startIndex.encodedOffset ..< text.endIndex.encodedOffset)
+            let range = NSRange(text.startIndex.encodedOffset ..< text.endIndex.encodedOffset)
 			contentTextView.insertText(text, replacementRange: range)
 		}
 
