@@ -63,7 +63,7 @@ public extension NSMutableAttributedString {
 				
 				let contentRange = NSRange(location: range.lowerBound + 2, length: range.length - 4)
 				
-        var attr = [NSAttributedString.Key: Any]()
+                var attr = [NSAttributedString.Key: Any]()
 				
 				attr[.editorPlaceholder] = EditorPlaceholderState.inactive
 				

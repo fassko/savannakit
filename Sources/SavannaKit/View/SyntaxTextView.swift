@@ -310,7 +310,7 @@ open class SyntaxTextView: View {
 		
 		if shouldChangeText(insertingText: text) {
             let range = NSRange(text.startIndex.encodedOffset ..< text.endIndex.encodedOffset)
-			contentTextView.insertText(text, replacementRange: range)
+            contentTextView.insertText(text, replacementRange: range)
 		}
 
 	}
