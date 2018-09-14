@@ -47,7 +47,7 @@ public protocol SyntaxColorTheme {
 	
 	var backgroundColor: Color { get }
 
-  func globalAttributes() -> [NSAttributedString.Key: Any]
+    func globalAttributes() -> [NSAttributedString.Key: Any]
 
-  func attributes(for token: Token) -> [NSAttributedString.Key: Any]
+    func attributes(for token: Token) -> [NSAttributedString.Key: Any]
 }

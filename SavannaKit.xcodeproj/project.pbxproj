@@ -87,7 +87,7 @@
 		BE15626E1EFE9E7C00EB3723 /* SavannaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SavannaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2055211F1D53C00051EE97 /* Lioness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lioness.framework; path = "../../../Library/Developer/Xcode/DerivedData/Pixure-cgdlqshesrvljvcaumkelrnmbwqn/Build/Products/Release/Lioness.framework"; sourceTree = "<group>"; };
 		BE2055231F1D56AE0051EE97 /* Lioness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lioness.framework; path = "../../../Library/Developer/Xcode/DerivedData/SavannaKit-fyzqygnhrdukxucyxotmtknnxggx/Build/Products/Release/Lioness.framework"; sourceTree = "<group>"; };
-		BE21904A2053318600BFB99A /* SyntaxTextViewLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxTextViewLayoutManager.swift; sourceTree = "<group>"; };
+		BE21904A2053318600BFB99A /* SyntaxTextViewLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxTextViewLayoutManager.swift; sourceTree = "<group>"; tabWidth = 4; };
 		BE4280372038C38900C8FE24 /* SyntaxTextView+TextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SyntaxTextView+TextViewDelegate.swift"; sourceTree = "<group>"; };
 		BE42803A2038C3AA00C8FE24 /* Paragraphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paragraphs.swift; sourceTree = "<group>"; };
 		BE42803C2038C3DA00C8FE24 /* TextViewWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewWrapperView.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		BE99F5F41F07E6240076CDEF /* JungleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JungleKit.h; sourceTree = "<group>"; };
 		BE99F5F71F07E6240076CDEF /* ASTVisualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTVisualizer.swift; sourceTree = "<group>"; };
 		BE99F5F81F07E6240076CDEF /* Paragraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paragraph.swift; sourceTree = "<group>"; };
-		BE99F5F91F07E6240076CDEF /* SyntaxColorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxColorTheme.swift; sourceTree = "<group>"; };
+		BE99F5F91F07E6240076CDEF /* SyntaxColorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SyntaxColorTheme.swift; sourceTree = "<group>"; tabWidth = 4; };
 		BE99F5FA1F07E6240076CDEF /* SyntaxTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxTextView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		BE99F5FB1F07E6240076CDEF /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		BEC34E9320EE74AC00DE7411 /* RegexLexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexLexer.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		BEE6D387209A312400E881D9 /* SavannaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavannaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE6D389209A312400E881D9 /* SavannaKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavannaKitTests.swift; sourceTree = "<group>"; };
 		BEE6D38B209A312400E881D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEED01AC209CE2820058219D /* LineNumberLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNumberLayoutManager.swift; sourceTree = "<group>"; };
+		BEED01AC209CE2820058219D /* LineNumberLayoutManager.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LineNumberLayoutManager.swift; sourceTree = "<group>"; tabWidth = 4; };
 		BEF8B64020B88780006B85E9 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF8B64220B88780006B85E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF8B64420B88780006B85E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -191,7 +191,9 @@
 				BEDA3F361E380E5D00B5091C /* Products */,
 				BEDA3F441E380FCD00B5091C /* Frameworks */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		BEDA3F361E380E5D00B5091C /* Products */ = {
 			isa = PBXGroup;
