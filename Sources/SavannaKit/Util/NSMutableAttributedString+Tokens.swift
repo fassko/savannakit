@@ -20,7 +20,7 @@ public extension NSMutableAttributedString {
 		
 		self.init(string: source)
 		
-    var attributes = [NSAttributedString.Key: Any]()
+        var attributes = [NSAttributedString.Key: Any]()
 		
 		let spaceAttrString = NSAttributedString(string: " ", attributes: [.font: theme.font])
 		let spaceWidth = spaceAttrString.size().width

@@ -466,7 +466,7 @@ open class SyntaxTextView: View {
 		for (range, state) in rangesToUpdate {
 			
             var attr = [NSAttributedString.Key: Any]()
-			attr[.editorPlaceholder] = state
+            attr[.editorPlaceholder] = state
 
 			textStorage.addAttributes(attr, range: range)
 
@@ -482,7 +482,7 @@ open class SyntaxTextView: View {
 		
 		textStorage.beginEditing()
 
-    var attributes = [NSAttributedString.Key: Any]()
+        var attributes = [NSAttributedString.Key: Any]()
 		
 		let paragraphStyle = NSMutableParagraphStyle()
 		paragraphStyle.paragraphSpacing = 2.0
